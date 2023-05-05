@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F39F5A;
+    align-items: center;
+    margin: 0;
+}
+
+.login:hover {
+    cursor: pointer;
+    user-select: none;
+    user-select: all;
+}
+
+.login-form{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: linear-gradient(to top right, #ff6666 0%, #ff9933 100%);
+    z-index: 2;
+    margin-top: 4px;
+}
+
+.navbars{
+    transition: all 1s ease-out;
+}
+
+
+.searching {
+    position: absolute;
+    top: 5px;
+    right: 35px;
+    margin: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-search::before{
+    width: 100px;
+}
+
+.icon-search:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.disable {
+    display: none;
+}
+
+
